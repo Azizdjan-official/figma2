@@ -1,0 +1,719 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background: url(img/bg-music.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 831px;
+    width: 100%;
+    position: relative;
+}
+.navvy
+{
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px 0px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+}
+.nav a
+{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    margin: 0px 30px;
+}
+.nav a:hover{
+    color: #FBB034;
+}
+.nav button
+{
+    background: #FBB034;
+    padding:18px, 53px, 18px, 53px;
+    width: 182px;
+    height: 52px;
+    gap: 10px;
+    border: none;
+
+}
+.nav button a{
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+
+}
+.nav button a:hover{
+    color: black;
+}
+.text
+{
+
+    width: 35%;
+    margin-left: 150px;
+    margin-top: 200px;
+
+}
+.text h1{
+    color: #FBB034;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+}
+.text h2{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 45.36px;
+    padding: 20px 0px;
+}
+.text h3
+{
+    color: #9A9A9A;
+    font-weight: 400;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    line-height:22.37px;
+
+}
+.buttons
+{
+
+    width: 32%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.buttons button a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 15px;
+}
+.buttons button .buttonsa
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.buttons button:nth-child(1)
+{
+    width: 182px;
+    height: 52px;
+    background: #FBB034;
+    border: none;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.buttons button:nth-child(2)
+{
+    width: 182px;
+    height: 52px;
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.sartarosh
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    background: url(img/headerBGsi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 676px;
+}
+.header-ichi
+{
+    width: 70%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+.header-ichi .cards1
+{
+
+    width: 40%;
+    position: relative;
+    
+}
+.header-ichi .cards1 .img1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.header-ichi .cards1 .img3
+{
+    position: absolute;
+    top: 0;
+    right: 8%;
+    z-index: 99;
+}
+.header-ichi .cards1 .img2
+{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    z-index: 99;
+    border: 15px solid white;
+
+}
+.header-ichi .cards2
+{
+    width: 43%;
+
+    margin-left: 180px;
+    padding: 80px 0px;
+}
+.header-ichi .cards2 h1{
+    color: #FBB034;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+}
+.header-ichi .cards2 h2{
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 45.36px;
+    margin: 5px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-ichi .cards2 h3{
+    color: #565656;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19.17px;
+    margin: 10px 0px;
+    font-family: 'Jost', sans-serif;
+}
+.header-ichi .cards2 button
+{
+    width: 188px;
+    height: 52px;
+    border: none;
+    padding:18px, 53px, 18px, 53px;
+    gap: 10px;
+    background: #FBB034;
+    margin: 25px 0px;
+}
+.header-ichi .cards2 button a{
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.bookNow
+{
+    background: url(img/bookNowpics.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bookNow .book1
+{
+
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+}
+.bookNow .book1 h1
+{
+    color: #FBB034;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19.17px;
+     /* font-family: jost; */
+    /* font-family: jost; */
+    /* font-family: jost; */
+}
+.bookNow .book1 h2
+{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 45.36px;
+    color: white;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.bookNow .book1 h3
+{
+    color: #B8B8B8;
+    font-weight: 500;
+    font-size: 20px;
+    line-height:18.9px;
+    margin: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.bookNow .book1 button
+{
+    background: #FBB034;
+    padding:18px, 53px, 18px, 53px;
+    width: 251px;
+    height: 52px;
+    gap: 10px;
+    border: none;
+
+}
+.bookNow .book1 button a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:15.98px;
+    font-family: 'Poppins', sans-serif;
+}
+.bookNow .book2
+{
+    width: 320px;
+    height: 283px;
+    background: white;
+
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fa-phone
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #E8E8E8;
+    text-align: center; 
+    color: #FBB034;
+    font-size: 34px;
+
+    padding: 30px;
+}
+.bookNow .book2 h5
+{
+    color: #B8B8B8;
+    font-weight: 700;
+    font-size: 20px;
+    line-height:18.9px;
+    padding: 10px 0px;
+}
+.bookNow .book2 h6
+{
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22.68px;
+
+}
+.work
+{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0px;
+    background: #F6F6F6;
+}
+.working
+{
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;  
+    margin: auto; 
+}
+.working .days1
+{
+    width: 50%;
+
+}
+.working .days1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.working .days2
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #FBB034;
+    padding: 50px ;
+}
+.working .days2 h1
+{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height:30.24px;
+    padding-left: 15px;
+}
+.working .days2 h2
+{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:19.17px;
+    padding: 15px 0px;
+}
+.working .days2 .monday
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 367px;
+    border-bottom: 1px dashed black;
+    margin: 15px 0px;
+    padding: 5px 0px;
+}
+.working .days2 .monday h5{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15.12px;
+}
+.working .days2 .monday h6{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12.29px;
+    color: black;
+}
+.working .days2 button
+{
+    width: 166px;
+    height: 39px;
+    border: 1px solid black;
+    background: transparent;
+    margin: 10px 0px;
+}
+.working .days2 button a 
+{
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    line-height:19.17px;
+    color: black;
+    /* font-family: jost; */
+    /* font-family: jost; */
+    /* font-family: jost; */
+}
+.testy
+{
+ 
+    padding: 100px 0px;  
+}
+.testimonials
+{
+    width: 75%;
+    margin:auto;
+
+    display: flex;
+    flex-direction: row;
+}
+.testimonials .card1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+
+}
+.testimonials .card1 h1
+{
+    color: #FBB034;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:19.17px;
+}
+.testimonials .card1 h2
+{
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 45.36px;
+    padding: 10px 0px;
+}
+.testimonials .card1 p
+{
+    color: #ABABAB;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19.17px;
+    padding: 10px 0px;
+}
+.testimonials .card1 button
+{
+    background: #FBB034;
+    border: none;
+    width: 208px;
+    height: 52px;
+    padding:18px, 53px, 18px, 53px;
+    gap: 10px;
+
+}
+.testimonials .card1 button a
+{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    line-height:15.98px;
+}
+.testimonials .card2{
+    width: 320px;
+    height: 285px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials .card2 .umar
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #E8E8E8;
+
+}
+.testimonials .card2 h1
+{
+    font-weight: 700;
+    font-size: 13px;
+    line-height:13.85px;
+    color:#C2C2C2;
+    padding: 15px 0px;
+}
+.testimonials .card2 h2
+{
+    font-weight: 700;
+    font-size: 15px;
+    line-height:15.98px;
+    color: black;
+    padding: 5px 0px;
+}
+.testimonials .card2 h3
+{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12.78px;
+    color: #CECECE;
+}
+.lasty
+{
+    height: 493px;
+    background: url(img/lastyBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lasty h1
+{
+    color: #FBB034;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 
+    19.17px;
+}
+.lasty h2
+{
+    line-height: 
+    34.02px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+}
+.lasty button
+{
+    width: 208px;
+    height: 51px;
+    border: 1px solid #FBB034;
+    background: transparent;
+    margin-top: 20px;
+}
+.lasty button a
+{
+    text-decoration: none;
+    color: #FBB034;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15.98px;
+}
+.footer
+{
+    background: #000;
+    padding: 40px 0px;
+}
+.navvy2
+{
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px 0px;
+    border-bottom: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav2 a
+{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    margin: 0px 30px;
+}
+.nav2 a:hover{
+    color: #FBB034;
+}
+.nav2 button
+{
+    background: #FBB034;
+    padding:18px, 53px, 18px, 53px;
+    width: 182px;
+    height: 52px;
+    gap: 10px;
+    border: none;
+
+}
+.nav2 button a{
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+
+}
+.nav2 button a:hover{
+    color: black;
+}
+.foot2
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+.foot2 .newsletter
+{
+
+    width: 40%;
+    position: relative;
+}
+.foot2 .newsletter input
+{
+    width: 289px;
+    height: 51px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    color: white;
+}
+
+.fa-chevron-right
+{
+    position: absolute;
+    top: 38%;
+    right: 7%;
+    color: white;
+    font-size: 18px;
+    padding: 17px;
+    background:#FBB034;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px 8px 0px 0px;
+}
+.foot2 .newsletter h1
+{
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    line-height:28.64px;
+}
+.foot2 .services
+{
+
+    width: 30%;
+}
+.foot2 .services h5
+{
+    color:#FBB034;
+    font-weight: 400;
+    font-size: 17px; 
+    line-height: 22.13px; 
+}
+.foot2 .services h6
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.53px;
+    color: white;
+    padding: 10px 0px;
+}
+.foot3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 80%;
+    margin:auto;
+    padding: 40px 0px;
+}
+.foot3 .left a
+{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height:19.53px;
+    color: white;
+    margin: 0px 10px;
+}
+.fa-brands
+{
+    color: white;
+    margin: 0px 15px;
+    font-size: 22px;
+
+}
